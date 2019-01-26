@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+	width: 100%;
+	height: 8px;
+	display: flex;
+	margin-top: 2px;
+}
+
+.cubeRed {
+	width: 8px;
+	height: 8px;
+	background: orange;
+	margin-left: 2px;
+}
+
+.cubeBlue {
+	width: 8px;
+	height: 8px;
+	background: lightgray;
+	margin-left: 2px;
+}
+
+.year {
+  font-family: "Courier New", Courier;
+  font-size: 8px;
+  color: gray;
+  margin-right: 4px;
+  margin-left: 4px;
+}
