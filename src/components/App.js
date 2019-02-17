@@ -13,18 +13,21 @@ const styles = {
   },
 };
 
+const dateString = window.localStorage.getItem('memoryDate') || '2006-05-15T00:00:00'
+
 class App extends React.Component {
   state = {
-    selectedDate: new Date('2006-05-15T00:00:00'),
+    selectedDate: new Date(dateString),
   };
 
   handleDateChange = date => {
-    this.setState({ selectedDate: date });
+    this.setState({ selectedDate: date })
+    window.localStorage.setItem('memoryDate', date)
   };
 
   render() {
-    const { classes } = this.props;
-    const { selectedDate } = this.state;
+    const { classes } = this.props
+    const { selectedDate } = this.state
 
     const data = []
     const yearBt = selectedDate.getFullYear()
