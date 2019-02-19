@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/life-react/static/css/main.390bc3f7.chunk.css"
   },
   {
-    "revision": "5958c5f18a314b1402d19ce1575709a5",
+    "revision": "75ba47308770dc56b0c5f9bec5e72f4e",
     "url": "/life-react/index.html"
   }
 ];
